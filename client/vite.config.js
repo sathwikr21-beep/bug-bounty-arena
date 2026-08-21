@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:5000', // dev: forward API calls to Express
+      '/api': 'http://bug-bounty-arena007.onrender.com', // dev: forward API calls to Express
     },
   },
 });
