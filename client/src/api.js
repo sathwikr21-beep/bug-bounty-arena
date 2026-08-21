@@ -1,4 +1,4 @@
-const API = 'http://bug-bounty-arena007.onrender.com/api';
+const API = 'https://bug-bounty-arena007.onrender.com/api';
 
 export async function fetchChallenges() {
   const res = await fetch(`${API}/challenges`);
